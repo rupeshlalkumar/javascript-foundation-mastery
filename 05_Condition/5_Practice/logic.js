@@ -13,7 +13,7 @@
 //     console.log("You Eligible for Addmission");
 // }
 
-// Example 3: Product Availablity 
+// Example 3: Product Availablity
 // const stock = 15;
 // if(stock > 0){
 //     console.log("Product Available");
@@ -53,7 +53,7 @@
 //     case "Sunday":
 //         console.log("Holiday");
 //         break;
-//     default: 
+//     default:
 //     console.log("Invaild Day");
 // }
 
@@ -73,14 +73,55 @@
 // }
 
 // Example 9: Payment Method
-const paymentMethod = "UPI";
-switch(paymentMethod){
-    case "Cash":
-        console.log("Cash Payment");
-        break;
-    case "UPI":
-        console.log("UPI Payment");
-        break;
-    default: 
-        console.log("Invaild Payment Method");
-}
+// const paymentMethod = "UPI";
+// switch(paymentMethod){
+//     case "Cash":
+//         console.log("Cash Payment");
+//         break;
+//     case "UPI":
+//         console.log("UPI Payment");
+//         break;
+//     default:
+//         console.log("Invaild Payment Method");
+// }
+
+// Challenge 1: Check whether a person can vote.
+// const age = 19;
+// if(age >= 18){
+//     console.log("You Can Vote!");
+// } else{
+//     console.log("You Cannot Vote!");
+// }
+
+// Challenge 2: Check product stock.
+// const stock = 5;
+// if(stock > 0 ){
+//     console.log("Product Available");
+// } else{
+//     console.log("Product Not Available");
+// }
+
+// Challenge 3: Check payment status.
+// const paymentStatus = false;
+// if(paymentStatus === true){
+//     console.log("Payment Success");
+// } else{
+//     console.log("Payment Failed");
+// }
+
+// Challenge 4: Display user role using switch.
+
+// const role = "Guest";
+// switch (role) {
+//   case "Admin":
+//     console.log("Admin");
+//     break;
+// case "Manager":
+//     console.log("Manager");
+//     break;
+// case "Employee":
+//     console.log("Employee");
+//     break;
+// default:
+//     console.log("Guest");
+// }
