@@ -1,11 +1,10 @@
-// Profit Calculator
-const costPrice = 3000;
-const sellingPrice = 5000;
-const profit = sellingPrice - costPrice;
-const loss = costPrice - sellingPrice;
-const percentage = (profit / costPrice) * 100;
-console.log(`CostPrice: ${costPrice}`);
-console.log(`SellingPrice: ${sellingPrice}`);
-console.log(`Profit : ${profit}`);
-console.log(`Loss : ${loss}`);
-console.log(`Percentage: ${percentage + "%"}`);
+// I written this code on 7th August 2026. 
+const studentName = "Sakshi";
+const studentMarks = 82;
+if (studentMarks <= 90) {
+  console.log(studentName + " : Grade A ");
+}if(studentMarks <= 80){
+    console.log(studentName + " : Grade B ");
+}if(studentMarks <= 70){
+    console.log(studentName + " : Grade C ");
+} 
