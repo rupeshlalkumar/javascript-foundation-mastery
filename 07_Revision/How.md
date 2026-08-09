@@ -676,7 +676,6 @@ Solve Programming Problems
              │                │                │
              └────────────────┼────────────────┘
                               ▼
-                    💻 PROBLEM SOLVING
                               │
                               ▼
                     🚀 CALCULATOR PROJECT
