@@ -42,7 +42,7 @@
 // const result = add(10,20);
 // console.log(result);
 
-// Subtaction
+// 7. Subtaction
 
 // function minus(a,b){
 //     return a-b;
@@ -50,7 +50,7 @@
 // const result = minus(30,20);
 // console.log(result);
 
-// Multiplication
+// 8.Multiplication
 
 // function multiplication(a,b){
 //     return a*b;
@@ -58,7 +58,7 @@
 // const result = multiplication(10,20);
 // console.log(result);
 
-// Division
+// 9. Division
 
 // function division(a,b){
 //     return a/b;
@@ -66,10 +66,41 @@
 // const result = division(100,10);
 // console.log(result);
 
-// Profit Calculator
+// 10. Profit Calculator
 
-function profit(a,b){
-    return a-b;
-}
-const totalProfit = profit(10000,6500);
-console.log(totalProfit);
+// function profit(a,b){
+//     return a-b;
+// }
+// const totalProfit = profit(10000,6500);
+// console.log(totalProfit);
+
+// 11. Multiple Parameter
+
+// function calculateSalary(salary,bonus){
+//     return salary+bonus;
+// }
+
+// const totalSalary = calculateSalary(35000, 5000);
+// console.log(totalSalary);
+
+// Function with Condition
+
+// function checkAge(age){
+//     if(age >= 18){
+//         return "Eligible";
+//     } else{
+//         return "Not Eligible";
+//     }
+// }
+
+// const result = checkAge(16);
+// console.log(result);
+
+// Function With Loop
+
+// function printNumber(){
+//     for(let i = 10; i >= 0; i--){
+//         console.log(i);
+//     }
+// }
+// printNumber();
