@@ -83,7 +83,7 @@
 // const totalSalary = calculateSalary(35000, 5000);
 // console.log(totalSalary);
 
-// Function with Condition
+// 12. Function with Condition
 
 // function checkAge(age){
 //     if(age >= 18){
@@ -96,7 +96,7 @@
 // const result = checkAge(16);
 // console.log(result);
 
-// Function With Loop
+// 13. Function With Loop
 
 // function printNumber(){
 //     for(let i = 10; i >= 0; i--){
@@ -104,3 +104,20 @@
 //     }
 // }
 // printNumber();
+
+// 14. Greeting System
+// function greetUser(userName){
+//     const message = `Hello ${userName}, Welcome to JavaScript`;
+//     return message;
+// }
+
+// const result = greetUser("Rupesh");
+// console.log(result);
+
+
+function greetUser(userName){
+    const message = `Hello ${userName} Welcome to World`;
+    return message;
+}
+const result = greetUser("Rupesh");
+console.log(result);
