@@ -114,10 +114,12 @@
 // const result = greetUser("Rupesh");
 // console.log(result);
 
-
-function greetUser(userName){
-    const message = `Hello ${userName} Welcome to World`;
-    return message;
+// 16. Tax Calculator
+function calculatorTax(income){
+    const taxRate = 18;
+    const tax = income * taxRate /100;
+    return tax;
 }
-const result = greetUser("Rupesh");
-console.log(result);
+
+const result = calculatorTax(50000);
+console.log(`Tax: ${result}`);
