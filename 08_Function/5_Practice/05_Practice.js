@@ -27,7 +27,7 @@
 
 // greet("name", "Murarpur", "Bhagalpur");
 
-// 5. Without Return Function 
+// 5. Without Return Function
 
 // function add(a,b){
 //     console.log(a+b);
@@ -115,11 +115,20 @@
 // console.log(result);
 
 // 16. Tax Calculator
-function calculatorTax(income){
-    const taxRate = 18;
-    const tax = income * taxRate /100;
-    return tax;
-}
+// function calculatorTax(income){
+//     const taxRate = 18;
+//     const tax = income * taxRate /100;
+//     return tax;
+// }
 
-const result = calculatorTax(50000);
-console.log(`Tax: ${result}`);
+// const result = calculatorTax(50000);
+// console.log(`Tax: ${result}`);
+
+// 17. Profit and Losss Calculator
+
+function calculateProfit(costPrice, sellingPrice) {
+  const totalProfit = sellingPrice - costPrice;
+  return totalProfit;
+}
+const result = calculateProfit(4000, 6000);
+console.log(`Profit: ${result}`);
