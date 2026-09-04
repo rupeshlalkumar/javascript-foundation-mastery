@@ -4,4 +4,4 @@ const product = [
     "Mouse",
 ];
 
-console.log(product [2]);
+console.log(product [1]);
