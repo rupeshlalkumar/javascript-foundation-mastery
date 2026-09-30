@@ -13,7 +13,7 @@ const customers = [
 ];
 
 const customersName = customers.map(customers => {
-    return customers.toUpperCase();
+    return customers.toLowerCase();
 });
 
 console.log(customersName);
