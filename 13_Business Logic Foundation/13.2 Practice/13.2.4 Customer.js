@@ -1,7 +1,7 @@
 const customers = [
     {
         name: "Rahul",
-        active: true
+        active: false
     },
 
     {
@@ -15,7 +15,7 @@ const customers = [
 ];
 
 const NewCustomers = customers.filter(customers =>{
-    return customers === true;
+    return customers.active === false;
 });
 
 console.log(NewCustomers);
